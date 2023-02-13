@@ -1,0 +1,51 @@
+{
+  "author": "Joshua Kunst",
+  "name": "@jbkunst/chessboardjs-themes",
+  "description": "A set of themes for chessboardjs by Chris Oakman.",
+  "main": "dist/chessboardjs-themes.js",
+  "homepage": "https://rawgit.com/jbkunst/chessboardjs-themes/master/index.html",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbkunst/chessboardjs-themes.git"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "cli": "ts-node src/app/main.ts",
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint --fix src/ --ext .js,.jsx,.ts,.tsx",
+    "test": "jest",
+    "clean": "rm -rf build docs",
+    "ts-node": "ts-node",
+    "docs": "typedoc --entryPoints src/app/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "build-all": "yarn clean && yarn build && yarn esbuild-node && yarn esbuild-browser && minify-css",
+    "esbuild-browser": "esbuild src/browser.ts --bundle --minify --sourcemap=external --outfile=dist/esbuild/browser.js",
+    "esbuild-browser:dev": "esbuild src/browser.ts --bundle --outfile=dist/esbuild/browser.js",
+    "esbuild-browser:watch": "esbuild src/browser.ts --bundle --watch --outfile=dist/esbuild/browser.js",
+    "esbuild-node": "esbuild src/cli.ts --bundle --platform=node --minify --sourcemap=external --outfile=dist/esbuild/cli.js",
+    "esbuild-node:dev": "esbuild src/cli.ts --bundle --platform=node --sourcemap=external --outfile=dist/esbuild/cli.js",
+    "esbuild-node:watch": "esbuild src/cli.ts --bundle --platform=node --watch --sourcemap=external --outfile=dist/esbuild/cli.js",
+    "minify-css": "uglifycss src/styles/styles.css > dist/styles.css"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "esbuild": "^0.17.7",
+    "eslint": "^8.34.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "jest": "^29.4.2",
+    "minify": "^9.2.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.24",
+    "typescript": "^4.9.5",
+    "uglifycss": "^0.0.29"
+  }
+}

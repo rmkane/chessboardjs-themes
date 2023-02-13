@@ -89,4 +89,19 @@ var board2 = ChessBoard('boardiv2', {
 - 2015-11-25: Adding metro theme ([source](https://dev.windows.com/en-us/microsoft-edge/testdrive/demos/chess/)].
 
 
+## TODO
+
+git clone git@github.com:oakmac/chessboardjs.git
+npm install
+npm run build
+cp chessboardjs/dist/* chessboardjs-themes/lib/
+
+# Rewrite
+
+## Compile
+
+```shell
+npx tsc
+```
+
 

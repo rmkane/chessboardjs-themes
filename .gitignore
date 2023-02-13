@@ -1,14 +1,12 @@
-# History files
-.Rhistory
-.Rapp.history
+.idea/*
 
-# Example code in package build process
-*-Ex.R
+/node_modules/
+package-lock.json
 
-# RStudio files
-.Rproj.user/
+/build/
+/dist/
+/docs/
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-.Rproj.user
+.DS_Store
+coverage
+*.log
