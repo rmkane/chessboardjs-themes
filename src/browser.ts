@@ -11,6 +11,7 @@ import {
   symbol_piece_theme,
   uscf_piece_theme,
   wikipedia_piece_theme,
+  alpha_board_theme,
   chess24_board_theme,
   dilena_board_theme,
   leipzig_board_theme,
@@ -31,6 +32,7 @@ declare global {
         symbol_piece_theme: (piece: Piece) => string,
         uscf_piece_theme: (piece: Piece) => string,
         wikipedia_piece_theme: (piece: Piece) => string,
+        alpha_board_theme:string[],
         chess24_board_theme:string[],
         dilena_board_theme:string[],
         leipzig_board_theme:string[],
@@ -50,6 +52,7 @@ window.symbol_piece_theme = symbol_piece_theme;
 window.uscf_piece_theme = uscf_piece_theme;
 window.wikipedia_piece_theme = wikipedia_piece_theme;
 
+window.alpha_board_theme = alpha_board_theme;
 window.chess24_board_theme = chess24_board_theme;
 window.metro_board_theme = metro_board_theme;
 window.leipzig_board_theme = leipzig_board_theme;

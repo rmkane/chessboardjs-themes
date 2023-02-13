@@ -1,9 +1,7 @@
-import { greet } from '../main';
+import { alpha_board_theme } from '../main';
+import { AlphaTheme } from '../themes';
 
-test('the data is peanut butter', () => {
-  expect(1).toBe(1);
-});
-
-test('greeting', () => {
-  expect(greet('Foo')).toBe('Hello Foo');
+test('Test board theme', () => {
+  expect(alpha_board_theme[0]).toBe(AlphaTheme.board.white);
+  expect(alpha_board_theme[1]).toBe(AlphaTheme.board.black);
 });
