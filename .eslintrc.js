@@ -41,7 +41,10 @@ module.exports = {
     'space-infix-ops': ['error'],
     'object-curly-spacing': ['error', 'always'],
     'object-curly-newline': ['error', {
-      ObjectExpression: 'always',
+      ObjectExpression: {
+        multiline: true,
+        minProperties: 3,
+      },
       ObjectPattern: {
         multiline: true,
       },
