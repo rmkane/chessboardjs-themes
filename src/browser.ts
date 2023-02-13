@@ -24,22 +24,22 @@ import { Piece } from './app/types';
 
 declare global {
     interface Window {
-        alpha_piece_theme: (piece: Piece) => string,
-        chess24_piece_theme: (piece: Piece) => string,
-        dilena_piece_theme: (piece: Piece) => string,
-        leipzig_piece_theme: (piece: Piece) => string,
-        metro_piece_theme: (piece: Piece) => string,
-        symbol_piece_theme: (piece: Piece) => string,
-        uscf_piece_theme: (piece: Piece) => string,
-        wikipedia_piece_theme: (piece: Piece) => string,
-        alpha_board_theme:string[],
-        chess24_board_theme:string[],
-        dilena_board_theme:string[],
-        leipzig_board_theme:string[],
-        metro_board_theme:string[],
-        symbol_board_theme:string[],
-        uscf_board_theme:string[],
-        wikipedia_board_theme:string[],
+        alpha_piece_theme: (piece: Piece)=> string,
+        chess24_piece_theme: (piece: Piece)=> string,
+        dilena_piece_theme: (piece: Piece)=> string,
+        leipzig_piece_theme: (piece: Piece)=> string,
+        metro_piece_theme: (piece: Piece)=> string,
+        symbol_piece_theme: (piece: Piece)=> string,
+        uscf_piece_theme: (piece: Piece)=> string,
+        wikipedia_piece_theme: (piece: Piece)=> string,
+        alpha_board_theme: string[],
+        chess24_board_theme: string[],
+        dilena_board_theme: string[],
+        leipzig_board_theme: string[],
+        metro_board_theme: string[],
+        symbol_board_theme: string[],
+        uscf_board_theme: string[],
+        wikipedia_board_theme: string[],
     }
 }
 

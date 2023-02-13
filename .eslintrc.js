@@ -28,6 +28,10 @@ module.exports = {
       generics: 'always-multiline',
       tuples: 'always-multiline',
     }],
+    '@typescript-eslint/type-annotation-spacing': ['error', {
+      before: false,
+      after: true,
+    }],
     'comma-dangle': 'off',
     'indent': ['error', 2],
     'no-multi-spaces': ['error'],

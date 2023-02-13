@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const DilenaTheme:Theme = {
+const DilenaTheme: Theme = {
   name: 'dilena',
   board: {
     black: '#B16228',

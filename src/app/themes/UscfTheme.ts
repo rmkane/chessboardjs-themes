@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const UscfTheme:Theme = {
+const UscfTheme: Theme = {
   name: 'uscf',
   board: {
     black: '#727FA2',

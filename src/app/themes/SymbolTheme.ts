@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const ThemeSymbol:Theme = {
+const ThemeSymbol: Theme = {
   name: 'symbol',
   board: {
     black: '#58AC8A',

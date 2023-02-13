@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const Chess24Theme:Theme = {
+const Chess24Theme: Theme = {
   name: 'chess24',
   board: {
     black: '#633526',

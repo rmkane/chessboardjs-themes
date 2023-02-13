@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const AlphaTheme:Theme = {
+const AlphaTheme: Theme = {
   name: 'alpha',
   board: {
     black: '#769656',

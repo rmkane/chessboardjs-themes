@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const MetroTheme:Theme = {
+const MetroTheme: Theme = {
   name: 'metro',
   board: {
     black: '#EFEFEF',

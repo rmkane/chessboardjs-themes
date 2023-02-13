@@ -1,50 +1,106 @@
 :root {
-    --theme-alpha-white: #EEEED2;
-    --theme-alpha-black: #769656;
-    --theme-chess24-white: #9E7863;
-    --theme-chess24-black: #633526;
-    --theme-dilena-white: #FFE5B6;
-    --theme-dilena-black: #B16228;
-    --theme-leipzig-white: #FFFFFF;
-    --theme-leipzig-black: #E1E1E1;
-    --theme-metro-white: #FFFFFF;
-    --theme-metro-black: #EFEFEF;
-    --theme-symbol-white: #FFFFFF;
-    --theme-symbol-black: #58AC8A;
-    --theme-uscf-white: #C3C6BE;
-    --theme-uscf-black: #727FA2;
-    --theme-wikipedia-white: #FFCE9E;
-    --theme-wikipedia-black: #D18B47;
+  --theme-alpha-white: #EEEED2;
+  --theme-alpha-black: #769656;
+  --theme-chess24-white: #9E7863;
+  --theme-chess24-black: #633526;
+  --theme-dilena-white: #FFE5B6;
+  --theme-dilena-black: #B16228;
+  --theme-leipzig-white: #FFFFFF;
+  --theme-leipzig-black: #E1E1E1;
+  --theme-metro-white: #FFFFFF;
+  --theme-metro-black: #EFEFEF;
+  --theme-symbol-white: #FFFFFF;
+  --theme-symbol-black: #58AC8A;
+  --theme-uscf-white: #C3C6BE;
+  --theme-uscf-black: #727FA2;
+  --theme-wikipedia-white: #FFCE9E;
+  --theme-wikipedia-black: #D18B47;
 }
 
 /* alpha theme */
-[data-theme="alpha"] .white-1e1d7 { background-color: var(--theme-alpha-white); color: var(--theme-alpha-black); }
-[data-theme="alpha"] .black-3c85d { background-color: var(--theme-alpha-black); color: var(--theme-alpha-white); }
+[data-theme="alpha"] .white-1e1d7 {
+  background-color: var(--theme-alpha-white);
+  color: var(--theme-alpha-black);
+}
+
+[data-theme="alpha"] .black-3c85d {
+  background-color: var(--theme-alpha-black);
+  color: var(--theme-alpha-white);
+}
 
 /* chess24 theme */
-[data-theme="chess24"] .white-1e1d7 { background-color: var(--theme-chess24-white); color: var(--theme-chess24-black); }
-[data-theme="chess24"] .black-3c85d { background-color: var(--theme-chess24-black); color: var(--theme-chess24-white); }
+[data-theme="chess24"] .white-1e1d7 {
+  background-color: var(--theme-chess24-white);
+  color: var(--theme-chess24-black);
+}
+
+[data-theme="chess24"] .black-3c85d {
+  background-color: var(--theme-chess24-black);
+  color: var(--theme-chess24-white);
+}
 
 /* dilena theme */
-[data-theme="dilena"] .white-1e1d7 { background-color: var(--theme-dilena-white); color: var(--theme-dilena-black); }
-[data-theme="dilena"] .black-3c85d { background-color: var(--theme-dilena-black); color: var(--theme-dilena-white); }
+[data-theme="dilena"] .white-1e1d7 {
+  background-color: var(--theme-dilena-white);
+  color: var(--theme-dilena-black);
+}
+
+[data-theme="dilena"] .black-3c85d {
+  background-color: var(--theme-dilena-black);
+  color: var(--theme-dilena-white);
+}
 
 /* leipzig theme */
-[data-theme="leipzig"] .white-1e1d7 { background-color: var(--theme-leipzig-white); color: var(--theme-leipzig-black); }
-[data-theme="leipzig"] .black-3c85d { background-color: var(--theme-leipzig-black); color: var(--theme-leipzig-white); }
+[data-theme="leipzig"] .white-1e1d7 {
+  background-color: var(--theme-leipzig-white);
+  color: var(--theme-leipzig-black);
+}
+
+[data-theme="leipzig"] .black-3c85d {
+  background-color: var(--theme-leipzig-black);
+  color: var(--theme-leipzig-white);
+}
 
 /* metro theme */
-[data-theme="metro"] .white-1e1d7 { background-color: var(--theme-metro-white); color: var(--theme-metro-black); }
-[data-theme="metro"] .black-3c85d { background-color: var(--theme-metro-black); color: var(--theme-metro-white); }
+[data-theme="metro"] .white-1e1d7 {
+  background-color: var(--theme-metro-white);
+  color: var(--theme-metro-black);
+}
+
+[data-theme="metro"] .black-3c85d {
+  background-color: var(--theme-metro-black);
+  color: var(--theme-metro-white);
+}
 
 /* symbol theme */
-[data-theme="symbol"] .white-1e1d7 { background-color: var(--theme-symbol-white); color: var(--theme-symbol-black); }
-[data-theme="symbol"] .black-3c85d { background-color: var(--theme-symbol-black); color: var(--theme-symbol-white); }
+[data-theme="symbol"] .white-1e1d7 {
+  background-color: var(--theme-symbol-white);
+  color: var(--theme-symbol-black);
+}
+
+[data-theme="symbol"] .black-3c85d {
+  background-color: var(--theme-symbol-black);
+  color: var(--theme-symbol-white);
+}
 
 /* symbol theme */
-[data-theme="uscf"] .white-1e1d7 { background-color: var(--theme-uscf-white); color: var(--theme-uscf-black); }
-[data-theme="uscf"] .black-3c85d { background-color: var(--theme-uscf-black); color: var(--theme-uscf-white); }
+[data-theme="uscf"] .white-1e1d7 {
+  background-color: var(--theme-uscf-white);
+  color: var(--theme-uscf-black);
+}
+
+[data-theme="uscf"] .black-3c85d {
+  background-color: var(--theme-uscf-black);
+  color: var(--theme-uscf-white);
+}
 
 /* wikipedia theme */
-[data-theme="wikipedia"] .white-1e1d7 { background-color: var(--theme-wikipedia-white); color: var(--theme-wikipedia-black); }
-[data-theme="wikipedia"] .black-3c85d { background-color: var(--theme-wikipedia-black); color: var(--theme-wikipedia-white); }
+[data-theme="wikipedia"] .white-1e1d7 {
+  background-color: var(--theme-wikipedia-white);
+  color: var(--theme-wikipedia-black);
+}
+
+[data-theme="wikipedia"] .black-3c85d {
+  background-color: var(--theme-wikipedia-black);
+  color: var(--theme-wikipedia-white);
+}

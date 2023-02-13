@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const WikipediaTheme:Theme = {
+const WikipediaTheme: Theme = {
   name: 'wikipedia',
   board: {
     black: '#D18B47',

@@ -1,6 +1,6 @@
 import { Theme } from '../types';
 
-const LeipzigTheme:Theme = {
+const LeipzigTheme: Theme = {
   name: 'leipzig',
   board: {
     black: '#E1E1E1',

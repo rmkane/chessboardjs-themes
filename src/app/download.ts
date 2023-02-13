@@ -10,7 +10,7 @@ type ThemeInfoProps = {
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars,@typescript-eslint/ban-ts-comment
 // @ts-ignore
-const downloadImage = (url: string, filepath: string):Promise<string> => {
+const downloadImage = (url: string, filepath: string): Promise<string> => {
   return new Promise((resolve, reject) => {
     client.get(url, (res) => {
       if (res.statusCode === 200) {
@@ -27,7 +27,7 @@ const downloadImage = (url: string, filepath: string):Promise<string> => {
   });
 };
 
-const themeTemplates:Array<ThemeInfoProps> = [ {
+const themeTemplates: Array<ThemeInfoProps> = [ {
   name: 'chess24',
   urlTemplate: 'https://d16lfcqjkxdsjm.cloudfront.net/assets/887a54bd2119bf34a0759ec1b6a1967a/images/chess/themes/pieces/chess24/{color}/{rank}.png',
   colorLookup: {
@@ -50,8 +50,8 @@ const themeTemplates:Array<ThemeInfoProps> = [ {
 // TODO - Fix URLS
 // eslint-disable-next-line @typescript-eslint/no-unused-vars,@typescript-eslint/ban-ts-comment
 // @ts-ignore
-const downloadImages = ():void => {
-  themeTemplates.forEach((theme:ThemeInfoProps) => {
+const downloadImages = (): void => {
+  themeTemplates.forEach((theme: ThemeInfoProps) => {
     const { colorLookup, name, urlTemplate } = theme;
 
     if (name !== 'wikipedia') {
