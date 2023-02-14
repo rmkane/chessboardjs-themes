@@ -1,9 +1,9 @@
-type Board = {
+interface Board {
     white: string,
     black: string
 }
 
-type Icons = {
+interface Icons {
     bB: string[],
     bK: string[],
     bN: string[],
@@ -16,16 +16,17 @@ type Icons = {
     wP: string[]
     wQ: string[],
     wR: string[],
-};
+}
 
-type Theme = {
+interface Theme {
     name: string,
     board: Board
     icons: Icons,
-};
+}
 
 type Piece = 'bB' | 'bK' | 'bN' | 'bP' | 'bQ' | 'bR' | 'wB' | 'wK' | 'wN' | 'wP' | 'wQ' | 'wR';
 
 export {
   Board, Icons, Piece, Theme,
 };
+
