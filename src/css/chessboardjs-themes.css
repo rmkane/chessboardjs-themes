@@ -1,0 +1,103 @@
+/*
+ * Chessboard.js Themes v2.0.0
+ * ====================================
+ * Custom themes for Chessboard.js
+ */
+:root {
+  --theme-alpha-light: #EEEED2;
+  --theme-alpha-dark: #769656;
+  --theme-chess24-light: #9E7863;
+  --theme-chess24-dark: #633526;
+  --theme-dilena-light: #FFE5B6;
+  --theme-dilena-dark: #B16228;
+  --theme-leipzig-light: #FFFFFF;
+  --theme-leipzig-dark: #E1E1E1;
+  --theme-metro-light: #FFFFFF;
+  --theme-metro-dark: #EFEFEF;
+  --theme-symbol-light: #FFFFFF;
+  --theme-symbol-dark: #58AC8A;
+  --theme-uscf-light: #C3C6BE;
+  --theme-uscf-dark: #727FA2;
+  --theme-wikipedia-light: #FFCE9E;
+  --theme-wikipedia-dark: #D18B47;
+}
+
+/* alpha theme */
+[data-theme=alpha] .white-1e1d7 {
+  background-color: var(--theme-alpha-light);
+  color: var(--theme-alpha-dark);
+}
+[data-theme=alpha] .black-3c85d {
+  background-color: var(--theme-alpha-dark);
+  color: var(--theme-alpha-light);
+}
+
+/* chess24 theme */
+[data-theme=chess24] .white-1e1d7 {
+  background-color: var(--theme-chess24-light);
+  color: var(--theme-chess24-dark);
+}
+[data-theme=chess24] .black-3c85d {
+  background-color: var(--theme-chess24-dark);
+  color: var(--theme-chess24-light);
+}
+
+/* dilena theme */
+[data-theme=dilena] .white-1e1d7 {
+  background-color: var(--theme-dilena-light);
+  color: var(--theme-dilena-dark);
+}
+[data-theme=dilena] .black-3c85d {
+  background-color: var(--theme-dilena-dark);
+  color: var(--theme-dilena-light);
+}
+
+/* leipzig theme */
+[data-theme=leipzig] .white-1e1d7 {
+  background-color: var(--theme-leipzig-light);
+  color: var(--theme-leipzig-dark);
+}
+[data-theme=leipzig] .black-3c85d {
+  background-color: var(--theme-leipzig-dark);
+  color: var(--theme-leipzig-light);
+}
+
+/* metro theme */
+[data-theme=metro] .white-1e1d7 {
+  background-color: var(--theme-metro-light);
+  color: var(--theme-metro-dark);
+}
+[data-theme=metro] .black-3c85d {
+  background-color: var(--theme-metro-dark);
+  color: var(--theme-metro-light);
+}
+
+/* symbol theme */
+[data-theme=symbol] .white-1e1d7 {
+  background-color: var(--theme-symbol-light);
+  color: var(--theme-symbol-dark);
+}
+[data-theme=symbol] .black-3c85d {
+  background-color: var(--theme-symbol-dark);
+  color: var(--theme-symbol-light);
+}
+
+/* uscf theme */
+[data-theme=uscf] .white-1e1d7 {
+  background-color: var(--theme-uscf-light);
+  color: var(--theme-uscf-dark);
+}
+[data-theme=uscf] .black-3c85d {
+  background-color: var(--theme-uscf-dark);
+  color: var(--theme-uscf-light);
+}
+
+/* wikipedia theme */
+[data-theme=wikipedia] .white-1e1d7 {
+  background-color: var(--theme-wikipedia-light);
+  color: var(--theme-wikipedia-dark);
+}
+[data-theme=wikipedia] .black-3c85d {
+  background-color: var(--theme-wikipedia-dark);
+  color: var(--theme-wikipedia-light);
+}

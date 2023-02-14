@@ -1,0 +1,19 @@
+@use "constants" as constants;
+@use "functions" as functions;
+
+/*
+ * Chessboard.js Themes v2.0.0
+ * ====================================
+ * Custom themes for Chessboard.js
+ */
+:root {
+  @each $name, $colors in constants.$themes {
+    @each $type, $color in $colors {
+      #{functions.themeProp($name, $type)}: $color;
+    }
+  }
+}
+
+@each $name, $colors in constants.$themes {
+  @include functions.theme(constants.$classes, $name);
+}

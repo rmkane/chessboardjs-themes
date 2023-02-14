@@ -1,0 +1,18 @@
+@function themeProp($name, $color) {
+  @return --theme-#{$name}-#{$color};
+};
+
+@mixin cell($classes, $name, $primary, $secondary) {
+  #{map-get($classes, $primary)} {
+    background-color: var(themeProp($name, $primary));
+    color: var(themeProp($name, $secondary));
+  }
+};
+
+@mixin theme($classes, $name) {
+  /* #{$name} theme */
+  [data-theme="#{$name}"] {
+    @include cell($classes, $name, light, dark);
+    @include cell($classes, $name, dark, light);
+  }
+};
